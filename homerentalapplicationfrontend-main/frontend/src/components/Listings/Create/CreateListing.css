@@ -1,0 +1,39 @@
+.listing-create-form {
+    margin-top: 10%;
+}
+
+.extras {
+    width: 310%;
+    margin: 0% 15%;
+}
+
+.listing-details {
+    display: flex;
+    width: 50%;
+    font-size: 1rem;
+    position: relative;
+    margin: 0%;
+}
+
+.listing-details p {
+    margin: auto 0%;
+}
+
+input {
+    width: 160px;
+}
+
+.available-dates {
+    display: flex;
+    width: 520%;
+}
+
+.available-dates li {
+    margin: 0% 10%;
+}
+
+tr td .map-container {
+    position: absolute;
+    right: 10%;
+    top: 57%;
+}

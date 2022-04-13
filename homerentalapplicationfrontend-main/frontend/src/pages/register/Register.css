@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff !important;
+    min-height: 100vh;
+    display: flex;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html,
+.App,
+#root,
+.form-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-inner {
+    min-width: 750px;
+    max-width: 72%;
+    margin: 3% auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 45px 10px;
+    border-radius: 15px;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.form-wrapper .form-field:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.form-field {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form-field label {
+    font-size: 18px;
+}
+
+.form-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+    font-size: 32x;
+}
+
+.custom-control-label {
+    font-weight: 400;
+}
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    margin: 0 auto;
+}
+
+td {
+    padding: 0% 9%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+p {
+    margin: 6%;
+    margin-left: 0;
+}
+
+.role-picker {
+    margin-top: 7.5%;
+    font-size: 18px;
+}
+
+.roles {
+    display: flex;
+    font-size: 18px;
+}
+
+.profile-photo {
+    margin-top: 1.5%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.profile-photo input {
+    width: 350px;
+}
+
+.already-have-account {
+    margin-bottom: 0%;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+}
